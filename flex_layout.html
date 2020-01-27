@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * { 
+            box-sizing: border-box;
+        }
+
+        html, body {
+        height: 100%;
+        }
+
+        body { 
+        margin: 0;
+        display: flex;
+        flex-direction: column; 
+        }
+
+        li { 
+        list-style: none; 
+        }
+
+        a { 
+        text-decoration: none;
+        }
+
+        a:link,
+        a:visited,
+        a:active { 
+        color: inherit;
+        }
+
+        header { 
+        background: skyblue;
+        }
+
+        nav { 
+        background: pink;
+        }
+
+        aside {
+        background: lightgray;
+        }
+
+        footer {
+        background: lightcoral;
+        }
+
+        #main{
+        display: flex;
+        flex-wrap: wrap;
+        }
+
+        .content{
+        flex: 70%;
+        }
+
+        .ad{
+        flex: 30%;
+        }
+
+        .navbar{
+        display: flex;
+        justify-content: flex-end;
+        }
+
+        .header {
+        padding: 30px;
+        text-align: center;
+        }
+
+        .navbar a {
+        padding: 8px;
+        margin-right: 20px;
+        }
+
+        .navbar a:hover {
+        color: black;
+        background-color: white;
+        }
+
+        .content, .aside {
+        padding: 40px;
+        }
+
+        footer {
+        padding: 30px;
+        text-align: center;
+        }
+
+        #main {
+            flex: 1;
+        }
+
+        .footer {
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>InKeun's WebPage</h1>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Q&A</a></li>
+        </ul>
+    </nav>
+    <div id="main">
+        <article class="content">
+            <h2>About Me</h2>
+            <h3>Introduce: </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio adipisci necessitatibus quae nisi neque expedita! Inventore voluptate excepturi perspiciatis consequatur nemo at neque similique, soluta rem explicabo atque, quos harum!</p>
+        </article>
+        <aside class="ad">
+            <h2>AD</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error magni tempore reiciendis! Deserunt facere veritatis, omnis tempora odio hic consequuntur, dolorem dicta neque deleniti dolorum voluptatem consectetur aspernatur sapiente illum!</p>
+        </aside>
+    </div>
+    <footer class="footer">
+        <h2>Footer</h3>
+    </footer>
+</body>
+</html>
