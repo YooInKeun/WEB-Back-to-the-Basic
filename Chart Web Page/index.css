@@ -39,7 +39,9 @@ body {
 }
 
 .content .element li {
+	padding: 300px;
 	margin: 30px;
+	background-color: cornflowerblue;
 }
 
 .content .element h1 {
@@ -119,7 +121,6 @@ a {
 	.content .element {
 		display: flex;
 		flex-direction: row;
-		align-items: center;
 		flex-wrap: wrap;
 	}
 }
