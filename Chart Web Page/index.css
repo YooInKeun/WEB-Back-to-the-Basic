@@ -36,10 +36,17 @@ body {
 
 .main-nav {
 	margin-top: 5px;
-
 }
 
-.logo a, .main-nav a {
+.content .element li {
+	margin: 30px;
+}
+
+.content .element h1 {
+	font-size: 60px;
+}
+
+.logo a, .main-nav a, .content .element {
 	padding: 10px 15px;
 	text-transform: uppercase;
 	text-align: center;
@@ -73,18 +80,23 @@ aside {
     background: lightgray;
 }
 
-#main{
+#main {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
 }
 
-.content{
-    flex: 70%;
+.content {
+    flex: 97.5%;
 }
 
-.ad{
-    flex: 30%;
+.side-bar {
+	flex: 2.5%;
+	flex-direction: column;
+}
+
+.side-bar .element li {
+	margin-top: 25px;
 }
 
 h2, h3, a {
@@ -103,6 +115,12 @@ a {
 	.header {
 		flex-direction: column;
         align-items: center;
+	}
+	.content .element {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		flex-wrap: wrap;
 	}
 }
 
