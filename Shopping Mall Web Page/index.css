@@ -4,7 +4,7 @@
 }
 
 html,
-body {
+body   {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -34,6 +34,7 @@ body {
 
 .header ul {
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   list-style: none;
   margin-top: 10px;
@@ -48,7 +49,7 @@ body {
 }
 
 .shop-menu li {
-  margin: 0 40px !important;
+  padding-left: 6rem;
 }
 
 .content {
@@ -75,16 +76,27 @@ body {
   padding-left: 30px;
 }
 
-.main {
-  /* display: flex;
-  flex: 1;
-  overflow: auto; */
-  display: block;
-  width: 100%;
-}
-
 .main .body {
   min-height: calc(100vh - 280px);
+}
+
+.main .items ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+
+.main .items li {
+  height: 300px;
+  width: 300px;
+  margin: 15px;
+  background-color: skyblue;
+  border-radius: 10px;
+}
+
+.main h3 {
+  margin: 15px;
 }
 
 .block {
@@ -95,9 +107,7 @@ body {
 }
 
 .inline-block-container {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  display: flex;
 }
 
 .inline-block {
