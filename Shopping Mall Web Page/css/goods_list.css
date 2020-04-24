@@ -1,0 +1,53 @@
+.search-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color: whitesmoke;
+  height: 1px;
+}
+
+.items.third {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.result-intro {
+  padding: 12px;
+}
+
+.item-condition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-order {
+  display: flex;
+  list-style: none;
+  margin-top: 15px;
+}
+
+.item-order a:hover, .page li a:hover {
+    color: rgb(161, 213, 227);
+    text-decoration: none;
+}
+
+.page {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.page li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
