@@ -19,6 +19,12 @@ hr {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 0px;
+}
+
+.infinite-scroll {
+  display: flex;
+  justify-content: center;
 }
 
 .result-intro {
