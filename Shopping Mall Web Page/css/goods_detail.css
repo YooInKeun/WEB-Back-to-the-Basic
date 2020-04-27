@@ -235,7 +235,9 @@
 }
 
 .item-specific-info h4 {
-    margin: 40px 0px 40px 520px;
+    display: flex;
+    justify-content: center;
+    margin: 15px 790px 10px 0px;
 }
 
 .info-index li {
@@ -264,7 +266,8 @@
 
 .rating-str {
     display: flex;
-    margin-right: 50px;
+    justify-content: center;
+    margin-right: 0px;
 }
 
 .rating-box .str {
@@ -284,9 +287,8 @@
     margin-left: 2px;
 }
 
-.rating-box-left {
+.rating-box-center {
     margin-top: 30px;
-    margin-right: 100px;
 }
 
 .star-icons {
@@ -321,7 +323,7 @@
     display: flex;
     flex-direction: column;
     list-style: none;
-    margin: 20px 0px 20px 520px;
+    margin: 20px 0px 20px 0px;
 }
 
 .rating-order-str {
@@ -337,7 +339,7 @@
 }
 
 .user-rating {
-    margin: 5px 0px 20px 520px;
+    margin: 5px 0px 20px 0px;
 }
 
 .rating-line-two {
@@ -386,4 +388,105 @@
     padding: 0px;
     margin-right: 570px;
     margin-bottom: 0px;
+}
+
+.rating-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qna-list .main-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 630px;
+}
+
+.qna-list .main-info h4 {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.qna-list .main-info p {
+    margin-top: 25px;
+    font-size: 14px;
+    color: grey;
+}
+
+.qna-list .sub-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.qna-list .sub-info p {
+    font-size: 13px;
+    color: grey;
+    margin-right: 150px;
+}
+
+.qna-list hr {
+    margin: 0px; 
+    width: 860px;
+    border-top: 1px solid;
+}
+
+.qna-solid-hr {
+    display: flex;
+    justify-content: center;
+}
+
+.qna-item {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.qna-item li {
+    margin: 10px 0px 10px 0px; 
+}
+
+.qna-item .delivery {
+    color: grey;
+    margin-right: 150px;
+    font-size: 14px
+}
+
+.qna-item .category {
+    margin-right: 300px;
+    font-size: 14px
+}
+
+.qna-item .is-completed {
+    margin-right: 50px;
+    font-size: 14px
+}
+
+.qna-item .user {
+    margin-right: 50px;
+    font-size: 12px
+}
+
+.qna-item .date {
+    margin-right: 0px;
+    font-size: 12px
+}
+
+.qna-thin-hr {
+    display: flex;
+    justify-content: center;
+}
+
+.qna-thin-hr hr {
+    border-width: thin;
+    color: rgb(196, 196, 196);
+}
+
+.qna-list .page {
+    margin-top: 30px;
 }
