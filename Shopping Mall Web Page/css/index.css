@@ -217,15 +217,15 @@ color: inherit;
 }
 
 .main .items.first li {
-  background-color:rgb(161, 213, 227);
+  /* background-color:rgb(161, 213, 227); */
 }
 
 .main .items.second li {
-  background-color: lightgoldenrodyellow;
+  /* background-color: lightgoldenrodyellow; */
 }
 
 .main .items.third li {
-  background-color: papayawhip;
+  /* background-color: papayawhip; */
 }
 
 .main h3 {
