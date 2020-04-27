@@ -1,0 +1,198 @@
+.item-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.brand-name {
+    margin-left: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.item-name {
+    margin: 10px 50px 20px 20px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.item-rating-info {
+    display: flex;
+}
+
+.item-info-bottom {
+    display: flex;
+}
+
+.item-score {
+    font-size: 50px;
+}
+
+.item-rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.star-icons {
+    display: flex;
+}
+
+.fa-star {
+    width: 20px;
+    height: 20px;
+}
+
+.search-result hr {
+    margin-left: 15px;
+    margin-bottom: 0px;
+    width: 860px;
+    border-top: 2px solid;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-img {
+    width: 290px;
+    height: 1080px;
+    margin-right: 200px;
+    padding-left: 200px;
+}
+
+.item-order-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.item-order-info-row {
+    margin-top: 9px;
+}
+
+.item-order-info-row p {
+    display: inline-block;
+}
+
+.item-order-info hr {
+    width: 383px;
+    margin: 0px;
+}
+
+.item-order-info-row .category {
+    width: 100px;
+    font-size: 15px;
+    color: grey;
+}
+
+.order-btn {
+    margin-top: 30px;
+}
+
+.model-name {
+    font-weight: 600;
+}
+
+.selling-price-info, .event-price-info, .owner-price-info {
+    display: flex;
+    align-items: center;
+}
+
+.selling-price-category {
+    width: 105px;
+    margin-bottom: 0px;
+}
+
+.event-price-category {
+    width: 105px;
+    color: red;
+    margin-bottom: 0px;
+}
+
+.owner-price-category {
+    width: 105px;
+    color: purple;
+}
+
+.selling-price {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(66, 65, 65);
+    margin-bottom: 0px;
+}
+
+.event-price {
+    font-size: 25px;
+    font-weight: 600;
+    color: red;
+    margin-bottom: 0px;
+}
+
+.owner-price {
+    font-size: 25px;
+    font-weight: 600;
+    color: purple;
+}
+
+.arrive-info {
+    color: rgb(7, 182, 7);
+}
+
+.arrive-guide {
+    font-size: 14px;
+    color: rgb(63, 63, 63);
+}
+
+.arrive-guide p{
+    font-size: 12px;
+    margin: 0px 0px 5px 1px;
+}
+
+.order-size-btn {
+    display: inline-block;
+}
+
+.order-size-btn button p {
+    margin: 2px 8px 2px 8px;
+}
+
+.order-size-btn p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.purchase {
+    width: 180px;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.cart {
+    width: 120px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.want {
+    width: 70px;
+    border: none;
+    background-color: rgb(123, 203, 224);
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
