@@ -58,15 +58,21 @@
 
 .item-img {
     width: 290px;
-    height: 1080px;
+
     margin-right: 200px;
     padding-left: 200px;
+    margin-bottom: 0px;
 }
 
 .item-order-info {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-bottom: 0px;
+}
+
+.item-order-info div {
+    margin-bottom: 0px;
 }
 
 .item-order-info-row {

@@ -28,7 +28,7 @@ color: inherit;
 }
 
 .header {
-  height: 60px;
+  height: 45px;
   background-color: white;
   display: flex;
   flex-direction: row;
@@ -38,12 +38,12 @@ color: inherit;
   border-style: solid;
   border-color: whitesmoke;
   border-width: thin;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .header .title div {
   padding-left: 10px;
-  font-size: 25px;
+  font-size: 19px;
 }
 
 .header ul {
@@ -121,7 +121,7 @@ color: inherit;
 
 .content .main img {
   width: 750px;
-  height: 50%;
+  height: 500px;
 }
 
 .main {
@@ -272,6 +272,10 @@ color: inherit;
   align-items: center;
 }
 
-.drawer-hamburger {
-  margin-top: 7px;
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item.active {
+  height: 500px;
 }
