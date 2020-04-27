@@ -46,7 +46,7 @@
 
 .search-result hr {
     margin-left: 15px;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
     width: 860px;
     border-top: 2px solid;
 }
@@ -58,7 +58,6 @@
 
 .item-img {
     width: 290px;
-
     margin-right: 200px;
     padding-left: 200px;
     margin-bottom: 0px;
@@ -68,7 +67,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
 }
 
 .item-order-info div {
@@ -152,7 +151,7 @@
     color: rgb(63, 63, 63);
 }
 
-.arrive-guide p{
+.arrive-guide p {
     font-size: 12px;
     margin: 0px 0px 5px 1px;
 }
@@ -195,10 +194,192 @@
 .want {
     width: 70px;
     border: none;
-    background-color: rgb(123, 203, 224);
+    background-color: cornflowerblue;
     color: white;
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
     text-align: center;
+}
+
+.item-rating {
+    display: flex;
+}
+
+.info-index {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.item-specific-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.specific-info-border {
+    display: flex;
+    justify-content: center;
+}
+
+.specific-info-border.top hr {
+    margin: 0px; 
+    width: 860px;
+    border-top: 1px solid;
+}
+
+.specific-info-border.bottom hr {
+    margin: 0px; 
+    width: 860px;
+}
+
+.item-specific-info h4 {
+    margin: 40px 0px 40px 520px;
+}
+
+.info-index li {
+    margin: 10px 50px 0px 50px;
+    color: grey;
+    cursor: pointer;
+}
+
+.rating-box-outer {
+    display: flex;
+    justify-content: center;
+}
+
+.rating-box {
+    display: flex;
+    justify-content: center;
+    width: 860px;
+    height: 200px;
+    border-style: solid;
+    border-width: thin;
+}
+
+.rating-str {
+    display: flex;
+    margin-right: 50px;
+}
+
+.rating-box .str {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.rating-box .size {
+    font-size: 15px;
+    color: grey;
+    margin-left: 5px;
+    margin-top: 31px;
+}
+
+.rating-box .fa-star {
+    margin-left: 2px;
+}
+
+.rating-box-left {
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+.star-icons {
+    display: flex;
+    align-items: center;
+}
+
+.star-icons p {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.rating-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating-bar p {
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.good-icon {
+    width: 125px !important;
+    height: 130px !important;
+    margin-top: 34px;
+}
+
+.rating-order {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 20px 0px 20px 520px;
+}
+
+.rating-order-str {
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.rating-order hr {
+    margin: 0px; 
+    width: 860px;
+    border-top: 1px solid;
+}
+
+.user-rating {
+    margin: 5px 0px 20px 520px;
+}
+
+.rating-line-two {
+    display: flex;
+}
+
+.rating-feature {
+    display: flex;
+    list-style: none;
+}
+
+.rating-feature li {
+    margin: 13px 10px 0px 5px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    height: 20px;
+    font-size: 13px;
+}
+
+.rating-feature li p {
+    display: inline-block;
+}
+
+.user-info {
+    font-size: 14px;
+    color: grey;
+}
+
+.rating-text p {
+    font-size: 14px;
+}
+
+.rating-text hr {
+    margin: 0px; 
+    width: 860px;
+    border-bottom: thin;
+}
+
+.page {
+    margin-top: 10px;
+}
+
+.result-intro {
+    display: inline-block;
+    font-size: 15px;
+    padding: 0px;
+    margin-right: 570px;
+    margin-bottom: 0px;
 }
