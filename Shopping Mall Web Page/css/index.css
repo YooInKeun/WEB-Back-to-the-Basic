@@ -152,6 +152,10 @@ color: inherit;
   margin-bottom: 80px;
 }
 
+.main .items h3 {
+  margin-bottom: 30px;
+}
+
 .main .items ul {
   display: flex;
   justify-content: center;
@@ -211,7 +215,7 @@ color: inherit;
   justify-content: center;
 }
 
-.main .items img{
+.main .items img {
   width: 120px;
   height: 240px;
 }
