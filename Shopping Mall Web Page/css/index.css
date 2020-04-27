@@ -42,8 +42,8 @@ color: inherit;
 }
 
 .header .title div {
-  padding-left: 10px;
-  font-size: 19px;
+  padding-left: 5px;
+  font-size: 21px;
 }
 
 .header ul {
@@ -69,6 +69,10 @@ color: inherit;
 .drawer-hamburger {
   position: static !important;
   z-index: 0 !important;
+}
+
+.drawer-toggle.drawer-hamburger {
+  width: 23px;
 }
 
 .content {
@@ -279,3 +283,4 @@ color: inherit;
 .carousel-item.active {
   height: 500px;
 }
+
