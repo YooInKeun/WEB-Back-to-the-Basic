@@ -36,6 +36,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .item-order {
@@ -53,6 +54,7 @@ hr {
   display: flex;
   list-style: none;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .page li {
