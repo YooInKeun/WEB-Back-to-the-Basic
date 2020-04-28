@@ -1,0 +1,96 @@
+* {
+    --main-height: 30px;
+  }
+  
+  .input-title,
+  .default-btn {
+    height: var(--main-height);
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid rgb(135, 204, 223);
+    background-color: rgb(133, 206, 226);
+    border-radius: 5px;
+  }
+  
+  .default-btn,
+  .month-btn,
+  .page-con-select {
+    cursor: pointer;
+  }
+  
+  .input-title {
+    display: inline-flex;
+    width: 90px;
+    margin: 3px;
+  }
+  
+  .default-btn {
+    width: 100px;
+  }
+  
+  .default-btn:hover {
+    background-color: #338a63;
+  }
+  
+  .input-wrapper {
+    margin-right: 10px;
+  }
+  
+  .input-wrapper input {
+    height: var(--main-height);
+    width: 180px;
+    border: 1px solid #828282;
+    border-radius: 5px;
+    padding: 2px 8px;
+    margin: 3px;
+  }
+  
+  .month-btn {
+    display: inline-flex;
+    width: var(--main-height);
+    height: var(--main-height);
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid orange;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+  }
+  
+  .month-btn:hover {
+    background-color: darkorange;
+  }
+  
+  .result-label {
+    font-size: 15px;
+  }
+  
+  .page-con-select {
+    height: var(--main-height);
+    border: 1px solid #828282;
+    border-radius: 5px;
+    width: 80px;
+    padding: 2px 8px;
+    text-align: center;
+  }
+
+  .button-row-default {
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid rgb(135, 204, 223);
+    background-color: rgb(133, 206, 226);
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  .button-row-default:hover {
+    background-color: rgb(133, 206, 226);
+  }
