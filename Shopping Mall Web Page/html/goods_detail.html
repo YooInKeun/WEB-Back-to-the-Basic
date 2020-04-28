@@ -121,7 +121,14 @@
           </div>
           <div class="item-order-info">
             <div class="item-img">
-              <img src="../img/refrigerator.png">
+              <img class="item-main-img" src="../img/refrigerator.png">
+              <div class="item-sub-img">
+                <img src="../img/refrigerator-side.png" style="width:50px; height:100px">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="../img/refrigerator-side.png" style="width:50px; height:100px">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="../img/refrigerator-opend.png" style="width:50px; height:100px">
+              </div>
             </div>
             <div>
               <div class="item-order-info-row">
@@ -196,14 +203,18 @@
             <ul class="info-index">
               <li>상품설명</li>
               <li>상품정보</li>
-              <li class="checked">상품평(376)</li>
-              <li>Q&A(297)</li>
+              <a href="#rating">
+                <li class="checked">상품평(376)</li>
+              </a>
+              <a href="#qa">
+                <li>Q&A(297)</li>
+              </a>
               <li>배송/교환/반품/환불</li>
             </ul>
             <div class="specific-info-border bottom">
               <hr />
             </div>
-            <div>
+            <div id="rating">
               <h4>상품평</h4>
               <div class="rating-box-outer">
                 <div class="rating-box">
@@ -468,7 +479,7 @@
             <div class="qna-list">
               <div>
                 <div class="main-info">
-                  <h4>Q&A</h4>
+                  <h4 id="qa">Q&A</h4>
                   <p>297개의 문의글이 있습니다</p>
                 </div>
                 <div class="sub-info">
