@@ -57,10 +57,22 @@
 }
 
 .item-img {
+    display: flex;
+    flex-direction: column;
     width: 290px;
     margin-right: 200px;
-    padding-left: 200px;
+    padding-left: 120px;
     margin-bottom: 0px;
+}
+
+.item-main-img {
+    width: 220px !important;
+    height: 400px !important;
+}
+
+.item-sub-img {
+    display: flex;
+    justify-content: center;
 }
 
 .item-order-info {
