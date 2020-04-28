@@ -1,315 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="../css/index.css" rel="stylesheet" />
-    <link href="../css/goods_list.css" rel="stylesheet" />
-    <link href="../css/goods_detail.css" rel="stylesheet" />
-    <link href="../css/register_goods_list.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
-    <script src="../js/index.js"></script>
-    <title>anyx-shopping-mall</title>
-  </head>
-  <body>
-    <header class="header">
-      <ul class="title">
-        <!-- <div><img src="../img/drawer.png" /></div> -->
-        <button type="button" class="drawer-toggle drawer-hamburger">
-          <span class="sr-only">toggle navigation</span>
-          <span class="drawer-hamburger-icon"></span>
-        </button>
-        <div><a href="../html/index.html">Shopping Mall</a></div>
-      </ul>
-      <ul class="shop-menu">
-        <li><a>오늘배송</a></li>
-        <li><a>베스트</a></li>
-        <li><a>이벤트</a></li>
-      </ul>
-      <ul>
-        <li><a>고객센터</a></li>
-        <li><a href="./register_goods_list.html">상품등록(Admin)</a></li>
-      </ul>
-    </header>
-    <div class="content">
-      <div class="aside">
-        <div class="drawer drawer--left">
-          <div role="banner">
-            <nav class="drawer-nav" role="navigation">
-              <ul class="drawer-menu">
-                <div><p class="all-category">전체 카테고리</p></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="../css/index.css" rel="stylesheet" />
+  <link href="../css/goods_list.css" rel="stylesheet" />
+  <link href="../css/goods_detail.css" rel="stylesheet" />
+  <link href="../css/register_goods_list.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+    integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+    integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+  <script src="../js/index.js"></script>
+  <title>anyx-shopping-mall</title>
+</head>
+
+<body>
+  <header class="header">
+    <ul class="title">
+      <button type="button" class="drawer-toggle drawer-hamburger">
+        <span class="sr-only">toggle navigation</span>
+        <span class="drawer-hamburger-icon"></span>
+      </button>
+      <div><a href="../html/index.html">Shopping Mall</a></div>
+    </ul>
+    <ul class="shop-menu">
+      <li><a>오늘배송</a></li>
+      <li><a>베스트</a></li>
+      <li><a>이벤트</a></li>
+    </ul>
+    <ul>
+      <li><a>고객센터</a></li>
+      <li><a href="./register_goods_list.html">상품등록(Admin)</a></li>
+    </ul>
+  </header>
+  <div class="content">
+    <div class="aside">
+      <div class="drawer drawer--left">
+        <div role="banner">
+          <nav class="drawer-nav" role="navigation">
+            <ul class="drawer-menu">
+              <div>
+                <p class="all-category">전체 카테고리</p>
+              </div>
+              <ul>
+                <li><a>가전제품</a></li>
                 <ul>
-                  <li><a>가전제품</a></li>
+                  <li><a>냉장고</a></li>
                   <ul>
-                    <li><a>냉장고</a></li>
-                    <ul>
-                      <li><a href="./goods_list.html">일반 냉장고</a></li>
-                      <li><a>미니 냉장고</a></li>
-                    </ul>
-                    <li><a>세탁기</a></li>
-                    <ul>
-                      <li><a>드럼 세탁기</a></li>
-                      <li><a>미니 드럼 세탁기</a></li>
-                      <li><a>벽걸이</a></li>
-                    </ul>
-                    <li><a>에어컨</a></li>
-                    <ul>
-                      <li><a>스탠드 에어컨</a></li>
-                      <li><a>벽걸이 에어컨</a></li>
-                    </ul>
+                    <li><a href="./goods_list.html">일반 냉장고</a></li>
+                    <li><a>미니 냉장고</a></li>
                   </ul>
-                  <br />
-                  <li><a>스포츠레져</a></li>
+                  <li><a>세탁기</a></li>
                   <ul>
-                    <li><a>골프</a></li>
-                    <li><a>헬스</a></li>
-                    <li><a>낚시</a></li>
+                    <li><a>드럼 세탁기</a></li>
+                    <li><a>미니 드럼 세탁기</a></li>
+                    <li><a>벽걸이</a></li>
                   </ul>
-                  <br />
-                  <li><a>차량/공구</a></li>
+                  <li><a>에어컨</a></li>
                   <ul>
-                    <li><a>타이어</a></li>
-                    <li><a>공구</a></li>
+                    <li><a>스탠드 에어컨</a></li>
+                    <li><a>벽걸이 에어컨</a></li>
                   </ul>
                 </ul>
+                <br />
+                <li><a>스포츠레져</a></li>
+                <ul>
+                  <li><a>골프</a></li>
+                  <li><a>헬스</a></li>
+                  <li><a>낚시</a></li>
+                </ul>
+                <br />
+                <li><a>차량/공구</a></li>
+                <ul>
+                  <li><a>타이어</a></li>
+                  <li><a>공구</a></li>
+                </ul>
               </ul>
-            </nav>
-          </div>
+            </ul>
+          </nav>
         </div>
       </div>
+    </div>
   </div>
-    <div class="container">
+  <div class="container">
     <div class="mt-4 mb-4">
       <h4>제품 목록</h4>
     </div>
     <div>
-        <div>
-          <div class="row align-items-center">
-            <span class="input-wrapper">
-              <span class="input-title">등록자</span>
-              <input type="text" />
-            </span>
-    
-            <span class="input-wrapper">
-              <span class="input-title">제품명</span>
-              <input type="text" />
-            </span>
+      <div>
+        <div class="row align-items-center">
+          <span class="input-wrapper">
+            <span class="input-title">등록자</span>
+            <input type="text" />
+          </span>
+
+          <span class="input-wrapper">
+            <span class="input-title">제품명</span>
+            <input type="text" />
+          </span>
+        </div>
+
+        <div class="row align-items-center">
+          <span class="input-wrapper">
+            <span class="input-title">모델명</span>
+            <input type="text" />
+          </span>
+
+          <span class="input-wrapper">
+            <span class="input-title">대분류</span>
+            <input type="text" />
+          </span>
+
+          <span class="input-wrapper">
+            <span class="input-title">소분류</span>
+            <input type="text" />
+          </span>
+          <button class="default-btn">
+            검색
+          </button>
+        </div>
+
+        <div class="row mt-3 align-items-center">
+          <div class="col-8 p-0 d-flex align-items-center">
+            <div class="result-label mr-4">
+              검색 결과 : 150 건
+            </div>
+            <div class="result-label mr-1">출력 라인 :</div>
+            <div>
+              <select class="page-con-select">
+                <option>10</option>
+                <option>20</option>
+                <option>30</option>
+                <option>40</option>
+              </select>
+            </div>
           </div>
-    
-          <div class="row align-items-center">
-            <span class="input-wrapper">
-              <span class="input-title">모델명</span>
-              <input type="text" />
-            </span>
-    
-            <span class="input-wrapper">
-              <span class="input-title">대분류</span>
-              <input type="text" />
-            </span>
-    
-            <span class="input-wrapper">
-              <span class="input-title">소분류</span>
-              <input type="text" />
-            </span>
+          <div class="col-4 p-0 d-flex justify-content-end">
             <button class="default-btn">
-              검색
+              엑셀 다운
             </button>
           </div>
-    
-          <div class="row mt-3 align-items-center">
-            <div class="col-8 p-0 d-flex align-items-center">
-              <div class="result-label mr-4">
-                검색 결과 : 150 건
-              </div>
-              <div class="result-label mr-1">출력 라인 :</div>
-              <div>
-                <select class="page-con-select" >
-                  <option>10</option>
-                  <option>20</option>
-                  <option>30</option>
-                  <option>40</option>
-                </select>
-              </div>
-            </div>
-            <div class="col-4 p-0 d-flex justify-content-end">
-              <button class="default-btn">
-                엑셀 다운
-              </button>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="row">
-            <table class="table table-bordered table-striped mt-4">
-              <thead class="thead-vue">
-                <tr>
-                  <th class="text-center">No</th>
-                  <th class="text-center">등록자</th>
-                  <th class="text-center">제품명</th>
-                  <th class="text-center">모델명</th>
-                  <th class="text-center">대분류</th>
-                  <th class="text-center">소분류</th>
-                  <th class="text-center">가격</th>
-                  <th class="text-center">미리보기</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="text-center">
-                    <input type="checkbox" />
-                  </td>
-                  <td class="text-center">yik</td>
-                  <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
-                  <td class="text-center">CRF-SN570BDC</td1>
-                  <td class="text-center">가전제품</td>
-                  <td class="text-center">냉장고</td>
-                  <td class="text-center">650,000원</td>
-                  <td class="text-center">
-                    <button class="preview-btn">보기</button>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="text-center">
-                    <input type="checkbox" />
-                  </td>
-                  <td class="text-center">yik</td>
-                  <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
-                  <td class="text-center">CRF-SN570BDC</td1>
-                  <td class="text-center">가전제품</td>
-                  <td class="text-center">냉장고</td>
-                  <td class="text-center">650,000원</td>
-                  <td class="text-center">
-                    <button class="preview-btn">보기</button>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="text-center">
-                    <input type="checkbox" />
-                  </td>
-                  <td class="text-center">yik</td>
-                  <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
-                  <td class="text-center">CRF-SN570BDC</td1>
-                  <td class="text-center">가전제품</td>
-                  <td class="text-center">냉장고</td>
-                  <td class="text-center">650,000원</td>
-                  <td class="text-center">
-                    <button class="preview-btn">보기</button>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="text-center">
-                    <input type="checkbox" />
-                  </td>
-                  <td class="text-center">yik</td>
-                  <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
-                  <td class="text-center">CRF-SN570BDC</td1>
-                  <td class="text-center">가전제품</td>
-                  <td class="text-center">냉장고</td>
-                  <td class="text-center">650,000원</td>
-                  <td class="text-center">
-                    <button class="preview-btn">보기</button>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="text-center">
-                    <input type="checkbox" />
-                  </td>
-                  <td class="text-center">yik</td>
-                  <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
-                  <td class="text-center">CRF-SN570BDC</td1>
-                  <td class="text-center">가전제품</td>
-                  <td class="text-center">냉장고</td>
-                  <td class="text-center">650,000원</td>
-                  <td class="text-center">
-                    <button class="preview-btn">보기</button>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="text-center">
-                    <input type="checkbox" />
-                  </td>
-                  <td class="text-center">yik</td>
-                  <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
-                  <td class="text-center">CRF-SN570BDC</td1>
-                  <td class="text-center">가전제품</td>
-                  <td class="text-center">냉장고</td>
-                  <td class="text-center">650,000원</td>
-                  <td class="text-center">
-                    <button class="preview-btn">보기</button>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="text-center">
-                    <input type="checkbox" />
-                  </td>
-                  <td class="text-center">yik</td>
-                  <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
-                  <td class="text-center">CRF-SN570BDC</td1>
-                  <td class="text-center">가전제품</td>
-                  <td class="text-center">냉장고</td>
-                  <td class="text-center">650,000원</td>
-                  <td class="text-center">
-                    <button class="preview-btn">보기</button>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="text-center">
-                    <input type="checkbox" />
-                  </td>
-                  <td class="text-center">yik</td>
-                  <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
-                  <td class="text-center">CRF-SN570BDC</td1>
-                  <td class="text-center">가전제품</td>
-                  <td class="text-center">냉장고</td>
-                  <td class="text-center">650,000원</td>
-                  <td class="text-center">
-                    <button class="preview-btn">보기</button>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="text-center">
-                    <input type="checkbox" />
-                  </td>
-                  <td class="text-center">yik</td>
-                  <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
-                  <td class="text-center">CRF-SN570BDC</td1>
-                  <td class="text-center">가전제품</td>
-                  <td class="text-center">냉장고</td>
-                  <td class="text-center">650,000원</td>
-                  <td class="text-center">
-                    <button class="preview-btn">보기</button>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="text-center">
-                    <input type="checkbox" />
-                  </td>
-                  <td class="text-center">yik</td>
-                  <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
-                  <td class="text-center">CRF-SN570BDC</td1>
-                  <td class="text-center">가전제품</td>
-                  <td class="text-center">냉장고</td>
-                  <td class="text-center">650,000원</td>
-                  <td class="text-center">
-                    <button class="preview-btn">보기</button>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div class="button-bottom">
-            <a href="./register_goods_insert.html"><button class="button-row-default">등록</button></a>
-            <button class="button-row-default">삭제</button>
         </div>
       </div>
+      <div>
+        <div class="row">
+          <table class="table table-bordered table-striped mt-4">
+            <thead class="thead-vue">
+              <tr>
+                <th class="text-center">No</th>
+                <th class="text-center">등록자</th>
+                <th class="text-center">제품명</th>
+                <th class="text-center">모델명</th>
+                <th class="text-center">대분류</th>
+                <th class="text-center">소분류</th>
+                <th class="text-center">가격</th>
+                <th class="text-center">미리보기</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-center">
+                  <input type="checkbox" />
+                </td>
+                <td class="text-center">yik</td>
+                <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
+                <td class="text-center">CRF-SN570BDC</td1>
+                <td class="text-center">가전제품</td>
+                <td class="text-center">냉장고</td>
+                <td class="text-center">650,000원</td>
+                <td class="text-center">
+                  <button class="preview-btn">보기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center">
+                  <input type="checkbox" />
+                </td>
+                <td class="text-center">yik</td>
+                <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
+                <td class="text-center">CRF-SN570BDC</td1>
+                <td class="text-center">가전제품</td>
+                <td class="text-center">냉장고</td>
+                <td class="text-center">650,000원</td>
+                <td class="text-center">
+                  <button class="preview-btn">보기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center">
+                  <input type="checkbox" />
+                </td>
+                <td class="text-center">yik</td>
+                <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
+                <td class="text-center">CRF-SN570BDC</td1>
+                <td class="text-center">가전제품</td>
+                <td class="text-center">냉장고</td>
+                <td class="text-center">650,000원</td>
+                <td class="text-center">
+                  <button class="preview-btn">보기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center">
+                  <input type="checkbox" />
+                </td>
+                <td class="text-center">yik</td>
+                <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
+                <td class="text-center">CRF-SN570BDC</td1>
+                <td class="text-center">가전제품</td>
+                <td class="text-center">냉장고</td>
+                <td class="text-center">650,000원</td>
+                <td class="text-center">
+                  <button class="preview-btn">보기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center">
+                  <input type="checkbox" />
+                </td>
+                <td class="text-center">yik</td>
+                <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
+                <td class="text-center">CRF-SN570BDC</td1>
+                <td class="text-center">가전제품</td>
+                <td class="text-center">냉장고</td>
+                <td class="text-center">650,000원</td>
+                <td class="text-center">
+                  <button class="preview-btn">보기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center">
+                  <input type="checkbox" />
+                </td>
+                <td class="text-center">yik</td>
+                <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
+                <td class="text-center">CRF-SN570BDC</td1>
+                <td class="text-center">가전제품</td>
+                <td class="text-center">냉장고</td>
+                <td class="text-center">650,000원</td>
+                <td class="text-center">
+                  <button class="preview-btn">보기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center">
+                  <input type="checkbox" />
+                </td>
+                <td class="text-center">yik</td>
+                <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
+                <td class="text-center">CRF-SN570BDC</td1>
+                <td class="text-center">가전제품</td>
+                <td class="text-center">냉장고</td>
+                <td class="text-center">650,000원</td>
+                <td class="text-center">
+                  <button class="preview-btn">보기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center">
+                  <input type="checkbox" />
+                </td>
+                <td class="text-center">yik</td>
+                <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
+                <td class="text-center">CRF-SN570BDC</td1>
+                <td class="text-center">가전제품</td>
+                <td class="text-center">냉장고</td>
+                <td class="text-center">650,000원</td>
+                <td class="text-center">
+                  <button class="preview-btn">보기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center">
+                  <input type="checkbox" />
+                </td>
+                <td class="text-center">yik</td>
+                <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
+                <td class="text-center">CRF-SN570BDC</td1>
+                <td class="text-center">가전제품</td>
+                <td class="text-center">냉장고</td>
+                <td class="text-center">650,000원</td>
+                <td class="text-center">
+                  <button class="preview-btn">보기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center">
+                  <input type="checkbox" />
+                </td>
+                <td class="text-center">yik</td>
+                <td class="text-center link"><a href="./register_goods_detail.html">클라윈드 양문형냉장고</a></td>
+                <td class="text-center">CRF-SN570BDC</td1>
+                <td class="text-center">가전제품</td>
+                <td class="text-center">냉장고</td>
+                <td class="text-center">650,000원</td>
+                <td class="text-center">
+                  <button class="preview-btn">보기</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div class="button-bottom">
+        <a href="./register_goods_insert.html"><button class="button-row-default">등록</button></a>
+        <button class="button-row-default">삭제</button>
+      </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

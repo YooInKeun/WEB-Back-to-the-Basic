@@ -1,65 +1,66 @@
 .search-result {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
 }
 
 hr {
-  border: 0;
-  clear:both;
-  display:block;
-  width: 96%;               
-  background-color: whitesmoke;
-  height: 1px;
+    border: 0;
+    clear: both;
+    display: block;
+    width: 96%;
+    background-color: whitesmoke;
+    height: 1px;
 }
 
 .items.third {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  min-width: 100rem;
-  max-width: 100rem;
-  width: 50%;
-  margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 100rem;
+    max-width: 100rem;
+    width: 50%;
+    margin: auto;
 }
 
 .infinite-scroll {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .result-intro {
-  padding: 12px;
+    padding: 12px;
 }
 
 .item-condition {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 .item-order {
-  display: flex;
-  list-style: none;
-  margin-top: 15px;
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
 }
 
-.item-order a:hover, .page li a:hover {
+.item-order a:hover,
+.page li a:hover {
     color: rgb(161, 213, 227);
     text-decoration: none;
 }
 
 .page {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  margin-top: 40px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .page li {
-  padding-left: 10px;
-  padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }

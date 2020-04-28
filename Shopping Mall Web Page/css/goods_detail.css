@@ -101,7 +101,9 @@
     font-weight: 600;
 }
 
-.selling-price-info, .event-price-info, .owner-price-info {
+.selling-price-info,
+.event-price-info,
+.owner-price-info {
     display: flex;
     align-items: center;
 }
@@ -224,13 +226,13 @@
 }
 
 .specific-info-border.top hr {
-    margin: 0px; 
+    margin: 0px;
     width: 860px;
     border-top: 1px solid;
 }
 
 .specific-info-border.bottom hr {
-    margin: 0px; 
+    margin: 0px;
     width: 860px;
 }
 
@@ -334,7 +336,7 @@
 }
 
 .rating-order hr {
-    margin: 0px; 
+    margin: 0px;
     width: 860px;
     border-top: 1px solid;
 }
@@ -374,7 +376,7 @@
 }
 
 .rating-text hr {
-    margin: 0px; 
+    margin: 0px;
     width: 860px;
     border-bottom: thin;
 }
@@ -431,7 +433,7 @@
 }
 
 .qna-list hr {
-    margin: 0px; 
+    margin: 0px;
     width: 860px;
     border-top: 1px solid;
 }
@@ -449,33 +451,33 @@
 }
 
 .qna-item li {
-    margin: 10px 0px 10px 0px; 
+    margin: 10px 0px 10px 0px;
 }
 
 .qna-item .delivery {
     color: grey;
     margin-right: 150px;
-    font-size: 14px
+    font-size: 14px;
 }
 
 .qna-item .category {
     margin-right: 300px;
-    font-size: 14px
+    font-size: 14px;
 }
 
 .qna-item .is-completed {
     margin-right: 50px;
-    font-size: 14px
+    font-size: 14px;
 }
 
 .qna-item .user {
     margin-right: 50px;
-    font-size: 12px
+    font-size: 12px;
 }
 
 .qna-item .date {
     margin-right: 0px;
-    font-size: 12px
+    font-size: 12px;
 }
 
 .qna-thin-hr {
