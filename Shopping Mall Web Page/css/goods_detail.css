@@ -262,6 +262,7 @@
     height: 200px;
     border-style: solid;
     border-width: thin;
+    border-radius: 20px;
 }
 
 .rating-str {
@@ -489,4 +490,16 @@
 
 .qna-list .page {
     margin-top: 30px;
+}
+
+.rating-write h5 {
+    color: grey;
+}
+
+.rating-write textarea {
+    font-size: 15px;
+}
+
+.rating-write button {
+    margin-left: 92%;
 }
