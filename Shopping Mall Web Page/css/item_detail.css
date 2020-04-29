@@ -517,3 +517,27 @@
 .rating-write button {
     margin-left: 92%;
 }
+
+.qna-write {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.qna-write h5 {
+    color: grey;
+}
+
+.qna-write textarea {
+    font-size: 15px;
+}
+
+.qna-write .btn {
+    display: flex;
+}
+
+.qna-write button {
+    margin-left: 580%;
+}
