@@ -94,3 +94,8 @@
 .button-row-default:hover {
     background-color: rgb(133, 206, 226);
 }
+
+.page {
+    display: flex !important;
+    justify-content: center !important;
+}
