@@ -51,12 +51,12 @@
     border-top: 2px solid;
 }
 
-.item-info {
+.product-info {
     display: flex;
     flex-direction: column;
 }
 
-.item-img {
+.product-img {
     display: flex;
     flex-direction: column;
     width: 290px;
@@ -65,41 +65,41 @@
     margin-bottom: 0px;
 }
 
-.item-main-img {
+.product-main-img {
     width: 220px !important;
     height: 400px !important;
 }
 
-.item-sub-img {
+.product-sub-img {
     display: flex;
     justify-content: center;
 }
 
-.item-order-info {
+.product-order-info {
     display: flex;
     justify-content: center;
     flex-direction: row;
     margin-bottom: 100px;
 }
 
-.item-order-info div {
+.product-order-info div {
     margin-bottom: 0px;
 }
 
-.item-order-info-row {
+.product-order-info-row {
     margin-top: 9px;
 }
 
-.item-order-info-row p {
+.product-order-info-row p {
     display: inline-block;
 }
 
-.item-order-info hr {
+.product-order-info hr {
     width: 383px;
     margin: 0px;
 }
 
-.item-order-info-row .category {
+.product-order-info-row .category {
     width: 100px;
     font-size: 15px;
     color: grey;
@@ -216,7 +216,7 @@
     text-align: center;
 }
 
-.item-rating {
+.product-rating {
     display: flex;
 }
 
@@ -226,7 +226,7 @@
     justify-content: center;
 }
 
-.item-specific-info {
+.product-specific-info {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -248,7 +248,7 @@
     width: 860px;
 }
 
-.item-specific-info h4 {
+.product-specific-info h4 {
     display: flex;
     justify-content: center;
     margin: 15px 790px 10px 0px;
@@ -455,39 +455,39 @@
     justify-content: center;
 }
 
-.qna-item {
+.qna-product {
     display: flex;
     justify-content: center;
     list-style: none;
     margin-bottom: 0px;
 }
 
-.qna-item li {
+.qna-product li {
     margin: 10px 0px 10px 0px;
 }
 
-.qna-item .delivery {
+.qna-product .delivery {
     color: grey;
     margin-right: 150px;
     font-size: 14px;
 }
 
-.qna-item .category {
+.qna-product .category {
     margin-right: 300px;
     font-size: 14px;
 }
 
-.qna-item .is-completed {
+.qna-product .is-completed {
     margin-right: 50px;
     font-size: 14px;
 }
 
-.qna-item .user {
+.qna-product .user {
     margin-right: 50px;
     font-size: 12px;
 }
 
-.qna-item .date {
+.qna-product .date {
     margin-right: 0px;
     font-size: 12px;
 }

@@ -15,7 +15,7 @@ hr {
     height: 1px;
 }
 
-.items.third {
+.products.third {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -34,20 +34,20 @@ hr {
     padding: 12px;
 }
 
-.item-condition {
+.product-condition {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
 }
 
-.item-order {
+.product-order {
     display: flex;
     list-style: none;
     margin-top: 15px;
 }
 
-.item-order a:hover,
+.product-order a:hover,
 .page li a:hover {
     color: rgb(161, 213, 227);
     text-decoration: none;
