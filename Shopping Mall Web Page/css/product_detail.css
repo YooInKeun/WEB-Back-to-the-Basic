@@ -507,7 +507,8 @@
 }
 
 .rating-write h5 {
-    color: grey;
+    color: rgb(78, 78, 78);
+    margin-bottom: 20px;
 }
 
 .rating-write textarea {
@@ -540,4 +541,23 @@
 
 .qna-write button {
     margin-left: 580%;
+}
+
+.rating-write label {
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+    margin-bottom: 12px;
+}
+
+.rating-write input {
+    height: 23px;
+}
+
+.rating-write input::placeholder{
+    font-size: 14px;
+    text-align: right;
+}
+
+.input-score {
+    margin-left: 15px;
 }
