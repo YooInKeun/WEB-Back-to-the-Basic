@@ -1,4 +1,4 @@
-.item-info {
+.product-info {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -10,25 +10,25 @@
     font-weight: 600;
 }
 
-.item-name {
+.product-name {
     margin: 10px 50px 20px 20px;
     font-size: 23px;
     font-weight: 700;
 }
 
-.item-rating-info {
+.product-rating-info {
     display: flex;
 }
 
-.item-info-bottom {
+.product-info-bottom {
     display: flex;
 }
 
-.item-score {
+.product-score {
     font-size: 50px;
 }
 
-.item-rating {
+.product-rating {
     display: flex;
     flex-direction: column;
     justify-content: center;
