@@ -86,114 +86,117 @@
     <div>
         <div class="container">
             <div class="title">
-                <h4>제품 등록</h4>
+              <h4>제품 수정</h4>
             </div>
             <div class="row">
-                <div class="col-6">
-                    <div class="row r-1 r-top">
-                        <div class="col-4 bor-right table-header">등록자</div>
-                        <div class="col-8">
-                            <div class="slot-wrapper">
-                                <input class="user-input" />
-                            </div>
-                        </div>
+              <div class="col-12">
+                <div class="row r-1 r-top r-right">
+                  <div class="col-2 bor-right table-header">등록자</div>
+                  <div class="col-8">
+                    <div class="slot-wrapper">
+                      <input class="user-input" value="" />
                     </div>
-                    <div class="row r-1">
-                        <div class="col-4 bor-right table-header">제품명</div>
-                        <div class="col-8">
-                            <div class="slot-wrapper">
-                                <input class="user-input" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row r-1">
-                        <div class="col-4 bor-right table-header">모델명</div>
-                        <div class="col-8">
-                            <div class="slot-wrapper">
-                                <input class="user-input" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row r-1">
-                        <div class="col-4 bor-right table-header">대분류</div>
-                        <div class="col-8">
-                            <div class="slot-wrapper">
-                                <select>
-                                    <option>가전제품</option>
-                                    <option>스포츠레져</option>
-                                    <option>차량/공구</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row r-1">
-                        <div class="col-4 bor-right table-header">소분류</div>
-                        <div class="col-8">
-                            <div class="slot-wrapper">
-                                <select>
-                                    <option>냉장고</option>
-                                    <option>세탁기</option>
-                                    <option>에어컨</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row r-1">
-                        <div class="col-4 bor-right table-header">가격<small>(단위: 원)</small></div>
-                        <div class="col-8">
-                            <div class="slot-wrapper">
-                                <input class="user-input" />
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
-                <div class="col-6">
-                    <div class="row r-6 r-right">
-                        <div class="col-4 r-top table-header">제품 사진</div>
-                        <div class="col-8">
-                            <div class="row r-5 r-top">
-                                <div class="slot-wrapper">
-                                    <img class="profile-img" />
-                                    <img class="profile-img" />
-                                    <span></span>
-                                </div>
-                            </div>
-                            <div class="row r-1">
-                                <div class="slot-wrapper">
-                                    <label for="image-upload-input" class="d-flex align-items-center m-0">
-                                        <span class="ml-3 mr-3 file-btn">이미지 선택</span>
-                                    </label>
-                                    <input placeholder="사진 설명 ex) 전면">
-                                    <button class="ml-3 mr-3">추가</button>
-                                    <input type="file" id="image-upload-input" class="input-file-hide" />
-                                </div>
-                            </div>
-                        </div>
+                <div class="row r-1 r-right">
+                  <div class="col-2 bor-right table-header">제품명</div>
+                  <div class="col-8">
+                    <div class="slot-wrapper">
+                      <input class="user-input" value="" />
                     </div>
+                  </div>
                 </div>
+                <div class="row r-1 r-right">
+                  <div class="col-2 bor-right table-header">모델명</div>
+                  <div class="col-8">
+                    <div class="slot-wrapper">
+                      <input class="user-input" value="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row r-1 r-right">
+                  <div class="col-2 bor-right table-header">대분류</div>
+                  <div class="col-8">
+                    <div class="slot-wrapper">
+                      <select>
+                        <option>가전제품</option>
+                        <option>스포츠레져</option>
+                        <option>차량/공구</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row r-1 r-right">
+                  <div class="col-2 bor-right table-header">소분류</div>
+                  <div class="col-8">
+                    <div class="slot-wrapper">
+                      <select>
+                        <option>냉장고</option>
+                        <option>세탁기</option>
+                        <option>에어컨</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row r-1 r-right">
+                  <div class="col-2 table-header">재고</div>
+                  <div class="col-8">
+                    <div class="slot-wrapper">
+                      <input class="user-input" value="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row r-1 r-right">
+                  <div class="col-2 bor-right table-header">가격<small>(단위: 원)</small></div>
+                  <div class="col-8">
+                    <div class="slot-wrapper">
+                      <input class="user-input" value="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="row r-1 r-right">
-                <div class="col-2 bor-right table-header">파일</div>
-                <div class="col-10">
-                    <div class="slot-wrapper">
-                        <span class="mr-3 file-btn">삭제</span>
-                        <input type="text" disabled class="user-input" />
-                    </div>
+              <div class="col-2 bor-right table-header">파일</div>
+              <div class="col-8">
+                <div class="slot-wrapper">
+                  <!-- <span class="mr-3 file-btn">삭제</span> -->
+                  <input type="text" disabled class="user-input" value="" />
                 </div>
+              </div>
             </div>
             <div class="row r-right r-min-1">
-                <div class="col-2 bor-right table-header">파일 첨부</div>
-                <div class="col-10">
-                    <div class="slot-wrapper">
-                        <label for="file-upload-input" class="d-flex align-items-center m-0">
-                            <span class="btn file-btn mr-3">파일선택</span>
-                            <span>파일 형식 : PDF / 권장 사이즈 2MB 이하</span>
-                        </label>
-                        <input type="file" id="file-upload-input" class="input-file-hide" />
-                    </div>
+              <div class="col-2 bor-right table-header">파일 첨부</div>
+              <div class="col-10">
+                <div class="slot-wrapper">
+                  <label for="file-upload-input" class="d-flex align-items-center m-0">
+                    <span class="btn file-btn mr-3">파일선택</span>
+                    <span>파일 형식 : PDF / 권장 사이즈 2MB 이하</span>
+                  </label>
+                  <input type="file" id="file-upload-input" class="input-file-hide" />
                 </div>
+              </div>
             </div>
-        </div>
+            <div class="row r-6 r-right">
+              <div class="col-2 r-top table-header">제품 사진</div>
+              <div class="col-10">
+                <div class="row r-5 r-top">
+                  <div class="slot-wrapper">
+                  </div>
+                </div>
+                <div class="row r-1">
+                  <div class="slot-wrapper">
+                    <label for="image-upload-input" class="d-flex align-items-center m-0">
+                        <span class="ml-3 mr-3 file-btn">이미지 선택</span>
+                    </label>
+                    <input placeholder="사진 설명 예시) 전면">
+                    <button class="ml-3 mr-3">추가</button>
+                    <input type="file" id="image-upload-input" class="input-file-hide" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         <div class="button-bottom">
             <button class="button-row-default">등록</button>
             <a href="./manage_product_list.html"><button class="button-row-default">목록</button></a>

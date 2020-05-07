@@ -77,6 +77,7 @@
 }
 
 .profile-img {
+    margin: 20px !important;
     padding: 10px;
     width: 100px !important;
     height: 150px !important;
@@ -109,6 +110,7 @@
 }
 
 .button-bottom {
+    margin-top: 500px !important;
     margin-left: calc(50% - 575px);
 }
 
@@ -116,4 +118,15 @@
     display: flex !important;
     flex-direction: row !important;
     margin-top: 200px !important;
+}
+
+.img-tag {
+    display: flex;
+    flex-direction: column;
+}
+
+.tmp {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
 }

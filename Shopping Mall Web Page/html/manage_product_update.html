@@ -90,33 +90,33 @@
         <h4>제품 수정</h4>
       </div>
       <div class="row">
-        <div class="col-6">
-          <div class="row r-1 r-top">
-            <div class="col-4 bor-right table-header">등록자</div>
+        <div class="col-12">
+          <div class="row r-1 r-top r-right">
+            <div class="col-2 bor-right table-header">등록자</div>
             <div class="col-8">
               <div class="slot-wrapper">
                 <input class="user-input" value="yik" />
               </div>
             </div>
           </div>
-          <div class="row r-1">
-            <div class="col-4 bor-right table-header">제품명</div>
+          <div class="row r-1 r-right">
+            <div class="col-2 bor-right table-header">제품명</div>
             <div class="col-8">
               <div class="slot-wrapper">
                 <input class="user-input" value="클라윈드 양문형냉장고" />
               </div>
             </div>
           </div>
-          <div class="row r-1">
-            <div class="col-4 bor-right table-header">모델명</div>
+          <div class="row r-1 r-right">
+            <div class="col-2 bor-right table-header">모델명</div>
             <div class="col-8">
               <div class="slot-wrapper">
                 <input class="user-input" value="CRF-SN570BDC" />
               </div>
             </div>
           </div>
-          <div class="row r-1">
-            <div class="col-4 bor-right table-header">대분류</div>
+          <div class="row r-1 r-right">
+            <div class="col-2 bor-right table-header">대분류</div>
             <div class="col-8">
               <div class="slot-wrapper">
                 <select>
@@ -127,8 +127,8 @@
               </div>
             </div>
           </div>
-          <div class="row r-1">
-            <div class="col-4 bor-right table-header">소분류</div>
+          <div class="row r-1 r-right">
+            <div class="col-2 bor-right table-header">소분류</div>
             <div class="col-8">
               <div class="slot-wrapper">
                 <select>
@@ -139,8 +139,16 @@
               </div>
             </div>
           </div>
-          <div class="row r-1">
-            <div class="col-4 bor-right table-header">가격<small>(단위: 원)</small></div>
+          <div class="row r-1 r-right">
+            <div class="col-2 table-header">재고</div>
+            <div class="col-8">
+              <div class="slot-wrapper">
+                <input class="user-input" value="36" />
+              </div>
+            </div>
+          </div>
+          <div class="row r-1 r-right">
+            <div class="col-2 bor-right table-header">가격<small>(단위: 원)</small></div>
             <div class="col-8">
               <div class="slot-wrapper">
                 <input class="user-input" value="650000" />
@@ -148,33 +156,10 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
-          <div class="row r-6 r-right">
-            <div class="col-4 r-top table-header">제품 사진</div>
-            <div class="col-8">
-              <div class="row r-5 r-top">
-                <div class="slot-wrapper">
-                  <img class="profile-img" src="../img/refrigerator.png" />
-                  <img class="profile-img" src="../img/refrigerator-side.png" />
-                  <img class="profile-img" src="../img/refrigerator-opend.png" />
-                  <span></span>
-                </div>
-              </div>
-              <div class="row r-1">
-                <div class="slot-wrapper">
-                  <label for="image-upload-input" class="d-flex align-items-center m-0">
-                    <span class="btn btn-secondary ml-3 mr-3 file-btn">이미지 선택</span>
-                  </label>
-                  <input type="file" id="image-upload-input" class="input-file-hide" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       <div class="row r-1 r-right">
         <div class="col-2 bor-right table-header">파일</div>
-        <div class="col-10">
+        <div class="col-8">
           <div class="slot-wrapper">
             <span class="mr-3 file-btn">삭제</span>
             <input type="text" disabled class="user-input" value="제품설명서.docx" />
@@ -190,6 +175,29 @@
               <span>파일 형식 : PDF / 권장 사이즈 2MB 이하</span>
             </label>
             <input type="file" id="file-upload-input" class="input-file-hide" />
+          </div>
+        </div>
+      </div>
+      <div class="row r-6 r-right">
+        <div class="col-2 r-top table-header">제품 사진</div>
+        <div class="col-10">
+          <div class="row r-5 r-top">
+            <div class="slot-wrapper">
+              <img class="profile-img" src="../img/refrigerator.png" />
+              <img class="profile-img" src="../img/refrigerator-side.png" />
+              <img class="profile-img" src="../img/refrigerator-opend.png" />
+              <span></span>
+            </div>
+          </div>
+          <div class="row r-1">
+            <div class="slot-wrapper">
+              <label for="image-upload-input" class="d-flex align-items-center m-0">
+                <span class="ml-3 mr-3 file-btn">이미지 선택</span>
+              </label>
+              <input placeholder="사진 설명 ex) 전면">
+              <button class="ml-3 mr-3">추가</button>
+              <input type="file" id="image-upload-input" class="input-file-hide" />
+            </div>
           </div>
         </div>
       </div>
