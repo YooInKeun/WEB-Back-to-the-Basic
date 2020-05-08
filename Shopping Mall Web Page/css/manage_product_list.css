@@ -99,3 +99,7 @@
     display: flex !important;
     justify-content: center !important;
 }
+
+.page-bracket {
+    color: rgb(150, 150, 150);
+}
