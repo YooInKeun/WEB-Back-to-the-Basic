@@ -12,6 +12,21 @@
     border: 1px solid rgb(135, 204, 223);
     background-color: rgb(133, 206, 226);
     border-radius: 5px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.input-label {
+    height: var(--main-height);
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid rgb(135, 204, 223);
+    background-color: rgb(144, 201, 248);
+    border-radius: 5px;
+    padding: 3px 10px 3px 10px;
+
 }
 
 .default-btn,
@@ -31,7 +46,7 @@
 }
 
 .default-btn:hover {
-    background-color: #338a63;
+    background-color: #41bef0;
 }
 
 .input-wrapper {
@@ -39,6 +54,15 @@
 }
 
 .input-wrapper input {
+    height: var(--main-height);
+    width: 180px;
+    border: 1px solid #828282;
+    border-radius: 5px;
+    padding: 2px 8px;
+    margin: 3px;
+}
+
+.input-wrapper select {
     height: var(--main-height);
     width: 180px;
     border: 1px solid #828282;
