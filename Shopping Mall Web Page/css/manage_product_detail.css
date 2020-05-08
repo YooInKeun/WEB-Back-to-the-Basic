@@ -130,3 +130,7 @@
     flex-direction: column !important;
     justify-content: center;
 }
+
+.img-comment span{
+    margin: 16px !important; 
+}
