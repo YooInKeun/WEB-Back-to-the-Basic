@@ -112,3 +112,7 @@ input::placeholder {
     text-align: center;
     font-size: 14px;
 }
+
+.footer {
+    margin-top: 20px;
+}
