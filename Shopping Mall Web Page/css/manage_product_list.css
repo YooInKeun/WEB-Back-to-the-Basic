@@ -127,3 +127,13 @@
 .page-bracket {
     color: rgb(150, 150, 150);
 }
+
+.thead-vue {
+    color: #fff;
+    background-color: rgb(133, 206, 226);
+    border-color: rgb(135, 204, 223);
+}
+
+.text-center a:hover {
+    color: rgb(255, 255, 255);
+}
