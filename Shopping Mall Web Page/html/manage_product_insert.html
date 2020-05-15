@@ -185,13 +185,44 @@
             </div>
           </div>
           <div class="row r-1">
-            <div class="slot-wrapper">
-              <label for="image-upload-input" class="d-flex align-items-center m-0">
-                <span class="ml-3 mr-3 file-btn">이미지 선택</span>
-              </label>
-              <input placeholder="사진 설명 예시) 전면">
-              <button class="ml-3 mr-3">추가</button>
-              <input type="file" id="image-upload-input" class="input-file-hide" />
+            <div class="col-10">
+              <div class="slot-wrapper">
+                <label for="file-upload-input" class="d-flex align-items-center m-0">
+                  <span type="button" class="btn file-btn mr-3" data-toggle="modal" data-target="#exampleModal"
+                    data-whatever="@getbootstrap">사진선택</span>
+                  <span>파일 형식 : JPG, JPEG, PNG 등 / 권장 사이즈 2MB 이하</span>
+                </label>
+                <input type="file" id="image-upload-input" class="input-file-hide" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">제품 이미지 추가</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">이미지 확인</label>
+                  <input class="form-control" id="message-text" style="height: 400px;">
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">설명</label>
+                  <input class="form-control" id="message-text"></input>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">추가</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
             </div>
           </div>
         </div>
