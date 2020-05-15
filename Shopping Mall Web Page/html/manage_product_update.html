@@ -161,7 +161,10 @@
         <div class="col-2 bor-right table-header">파일</div>
         <div class="col-8">
           <div class="slot-wrapper">
-            <span class="mr-3 file-btn">삭제</span>
+            <!-- <span class="mr-3 file-btn">삭제</span> -->
+            <label for="file-upload-input" class="d-flex align-items-center m-0">
+              <span class="btn file-btn mr-3">삭제</span>
+            </label>
             <input type="text" disabled class="user-input" value="제품설명서.docx" />
           </div>
         </div>
@@ -181,36 +184,79 @@
       <div class="row r-6 r-right">
         <div class="col-2 r-top table-header">제품 사진</div>
         <div class="col-10">
-          <div class="row">
+          <div class="row r-5">
             <div class="slot-wrapper">
-              <img class="profile-img" src="../img/refrigerator.png" />
-              <img class="profile-img" src="../img/refrigerator-side.png" />
-              <img class="profile-img" src="../img/refrigerator-opend.png" />
+              <div class="row r-12">
+                <ul class="img-list">
+                  <li>
+                    <img class="profile-img" src="../img/refrigerator.png" style="width:100px; height:180px;" />
+                    <ul class="img-tag">
+                      <li>&nbsp;&nbsp;&nbsp;<span class="img-comment">전면</span></li>
+                      <button class="btn-sm btn-danger">삭제하기</button>
+                    </ul>
+                  </li>
+                  <li><img class="profile-img" src="../img/refrigerator-side.png" style="width:100px; height:180px;" />
+                    <ul class="img-tag">
+                      <li>&nbsp;&nbsp;&nbsp;<span class="img-comment">측면</span></li>
+                      <button class="btn-sm btn-danger">삭제하기</button>
+                    </ul>
+                  </li>
+                  <li><img class="profile-img" src="../img/refrigerator-opend.png" style="width:100px; height:180px;" />
+                    <ul class="img-tag">
+                      <li>&nbsp;&nbsp;&nbsp;<span class="img-comment">개방</span></li>
+                      <button class="btn-sm btn-danger">삭제하기</button>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-          <span class="img-comment">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span style="color:grey;">(전 면)</span>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span style="color:grey;">(측 면)</span>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span style="color:grey;">(개 방)</span>
-          </span>
           <div class="row r-1">
-            <div class="slot-wrapper">
-              <label for="image-upload-input" class="d-flex align-items-center m-0">
-                <span class="ml-3 mr-3 file-btn">이미지 선택</span>
-              </label>
-              <input placeholder="사진 설명 ex) 전면">
-              <button class="ml-3 mr-3">추가</button>
-              <input type="file" id="image-upload-input" class="input-file-hide" />
+            <div class="col-10">
+              <div class="slot-wrapper">
+                <label for="file-upload-input" class="d-flex align-items-center m-0">
+                  <span type="button" class="btn file-btn mr-3" data-toggle="modal" data-target="#exampleModal"
+                    data-whatever="@getbootstrap">사진선택</span>
+                  <span>파일 형식 : JPG, JPEG, PNG 등 / 권장 사이즈 2MB 이하</span>
+                </label>
+                <input type="file" id="image-upload-input" class="input-file-hide" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">제품 이미지 추가</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">이미지 확인</label>
+                  <input class="form-control" id="message-text" style="height: 400px;">
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">설명</label>
+                  <input class="form-control" id="message-text"></input>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">추가</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="button-bottom">
-      <button class="button-row-default">등록</button>
+      <button class="button-row-default">수정</button>
       <a href="./manage_product_list.html"><button class="button-row-default">목록</button></a>
     </div>
     <div class="footer">

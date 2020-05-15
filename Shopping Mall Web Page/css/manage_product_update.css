@@ -122,8 +122,22 @@ input::placeholder {
     margin-top: 10px;
     display: flex;
     list-style: none;
+    flex-direction: center;
 }
 
 .img-list li {
+    list-style: none;
     margin-right: 20px;
+}
+
+.img-tag {
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    flex-direction: column;
+}
+
+.img-comment {
+    font-weight: 500;
+    font-size: 17px;
 }
