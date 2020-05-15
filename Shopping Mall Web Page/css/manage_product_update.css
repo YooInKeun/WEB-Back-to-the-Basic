@@ -116,3 +116,14 @@ input::placeholder {
 .footer {
     margin-top: 20px;
 }
+
+.img-list {
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+}
+
+.img-list li {
+    margin-right: 20px;
+}
