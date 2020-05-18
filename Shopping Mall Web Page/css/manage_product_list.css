@@ -140,3 +140,7 @@
 .footer {
     margin-top: 20px;
 }
+
+.container {
+  min-height: calc(100vh - 280px);
+}
