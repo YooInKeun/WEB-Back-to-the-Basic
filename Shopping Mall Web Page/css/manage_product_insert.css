@@ -124,3 +124,7 @@ input::placeholder {
 .container {
     min-height: calc(100vh - 280px);
 }
+
+.essential-input {
+    color: rgb(218, 110, 131);
+}
